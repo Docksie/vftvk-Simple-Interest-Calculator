@@ -10,5 +10,6 @@ function compute() {
     document.getElementById("amountDisplay").innerHTML = amount;
     document.getElementById('rangeDisplay').innerHTML = interestRate;
     document.getElementById('resultDisplay').innerHTML = result;
-    document.getElementById('yearsDisplay').innerHTML = numOfYears;
+    var currentYear = 2020 + Number(numOfYears);
+    document.getElementById('yearsDisplay').innerHTML = currentYear;
 }
