@@ -1,4 +1,84 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+}
 
+h1{
+    color:gray;
+    text-align: center;
+    font-size: 50px;
+    font-weight:bolder;
+}
+
+form{
+    padding-left: 350px;
+}
+
+#years{
+    position: relative;
+    top: 15px;
+    width: 40px;
+}
+
+#inputone{
+    font-weight: bold;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    
+}
+#inputtwo{
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+    padding-right: 65px;
+}
+#inputthree{
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    padding-right: 75px;
+}
+
+div{
+    padding: 20px;
+    border-radius: 25px;
+    margin: 5px 400px 10px 400px;
+    background-color: white;
+}
+
+#amountDisplay {
+    font-style: normal;
+    background-color: yellow;
+}
+
+#rangeDisplay {
+    font-style: normal;
+    background-color: yellow;
+}
+
+#resultDisplay {
+    font-style: normal;
+    background-color: yellow;
+}
+
+#yearsDisplay {
+    font-style: normal;
+    background-color: yellow;
+}
+
+#issabutton{
+    position: relative;
+    top: 10px;
+}
+
+.range{
+    position: relative;
+    top: 7px;
+}
+
+#range{
+    position: relative;
+    top: 10px;
+}
 
